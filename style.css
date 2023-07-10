@@ -1,3 +1,72 @@
-h1{
-    color:red
+*{
+    margin:0;
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* starts banner section style */
+.banner{
+    height:850px;
+    padding-top:50px;
+    padding-left: 200px;
+    padding-right: 240px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    gap: 100px;
+}
+.banner-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+/* .banner-info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+} */
+.banner-img{
+    width:50%;
+    margin-right: 100px;
+
+}
+.banner-heading{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    height: 288px;
+    color:#272727;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-text{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-btn{
+    background-color: #E55473;
+    border-radius:6px;
+    padding: 20px 43px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 52px;
+}
+.banner-img img{
+    height: 850px;
+    width: 635px;
+}
+/* ends banner section style */
