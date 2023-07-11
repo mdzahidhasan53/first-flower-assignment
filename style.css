@@ -5,9 +5,6 @@
 body{
     font-family: 'Lato', sans-serif;
 }
-.shop-navbar{
-    position: sticky;
-}
 .navigation{
     height:10vh;
     background: rgba(229, 84, 115, 0.19);
@@ -27,7 +24,7 @@ body{
 }
 .navigate{
     display: flex;
-    gap: 200px;
+    gap: 150px;
 }
 .navigate li{
     list-style: none;
@@ -274,6 +271,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 90px;
     }
     .latest-deal-text h1{
         color: #272727;
