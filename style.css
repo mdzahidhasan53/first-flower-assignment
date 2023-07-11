@@ -1,8 +1,40 @@
 *{
     margin:0;
+    padding: 0;
 }
 body{
     font-family: 'Lato', sans-serif;
+}
+.shop-navbar{
+    position: sticky;
+}
+.navigation{
+    height:10vh;
+    background: rgba(229, 84, 115, 0.19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color: #110101;
+    font-size:40px;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 800;
+}
+.logo span{
+    color:#E55473;
+}
+.navigate{
+    display: flex;
+    gap: 200px;
+}
+.navigate li{
+    list-style: none;
+    color: #110101;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: lato;
 }
 /* starts banner section style */
 .banner{
